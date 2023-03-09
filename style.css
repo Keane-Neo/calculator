@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 400px;
+  height: 700px;
+}
+
+button {
+  font-size: 30px;
+}
+
+.display {
+  grid-column-start: span 4;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+.zero {
+  grid-column-start: span 2;
+}
+
+.selected {
+  background-color: grey;
+}
