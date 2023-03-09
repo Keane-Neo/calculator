@@ -11,6 +11,7 @@ body {
   grid-template-rows: repeat(6, 1fr);
   width: 400px;
   height: 700px;
+  border: 1px solid black;
 }
 
 button {
@@ -29,4 +30,16 @@ button {
 
 .selected {
   background-color: grey;
+}
+
+#clear {
+  background-color: palevioletred;
+}
+
+#negate,
+#percentage {
+  background-color: lightblue;
+}
+#equal {
+  background-color: lightgreen;
 }
